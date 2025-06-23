@@ -69,5 +69,22 @@ func main() {
 				fmt.Println("number of tickets you entered is invalid")
 			}
 		}
+
+		city := "London"
+
+		switch city {
+		case "New York":
+			// execute code for new york
+		case "Singapore", "Hong Kong":
+			// execute code for singapore and hong kong
+		case "Berlin", "Hamburg", "Stuttgart":
+			// execute code for berlin, hamburg and stuttgart
+		case "Tokyo":
+			// execute code for tokyo
+		case "London":
+			// execute code for london
+		default:
+			// execute code for other cities
+		}
 	}
 }
